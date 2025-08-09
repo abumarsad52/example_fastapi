@@ -26,7 +26,7 @@ app.add_middleware(
 
 @app.get("/")
 def root():
-    return {"message": "Welcome to my custom API!"}
+    return {"message": "Welcome to my custom API $$$$$$$$$$$$$$$$$$$$$$$$$"}
 
 # 👇 include routers
 app.include_router(post.router)
